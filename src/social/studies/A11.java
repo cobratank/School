@@ -21,9 +21,9 @@ public class A11 {
 	    String st = bufferRead.readLine();
  
             if(st.matches("1")) {
-                 A1.main(args);
+                 System.out.println("Conflict and change;");
+                 System.out.println("Hi");
                  
-            A1v = true;
         }
 	}
 	catch(IOException e)

@@ -29,13 +29,16 @@ public class SocialStudies {
  
 	try{
 	    BufferedReader bufferRead = new BufferedReader(new InputStreamReader(System.in));
-	    String st = bufferRead.readLine();
+	    String sti = bufferRead.readLine();
  
-            if(st.matches("1")) {
+            if(sti.matches("1")) {
                  A1.main(args);
-                 
+             
             A1v = true;
         }
+             if(sti.matches("11")) {
+                 A11.main(args);
+             }
 	}
 	catch(IOException e)
 	{
@@ -44,5 +47,4 @@ public class SocialStudies {
        
   }
     }
-        // TODO code application logic here
-    
+        // TODO code application logic he
